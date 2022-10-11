@@ -8,7 +8,7 @@ class Cuenta:
     listHistorico : Historico = []
 
     def __str__(self) -> str:
-        str_result = 'Historial de Movimientos'
+        str_result = 'Historial de Movimientos Mmodificado'
         for his in self.listHistorico:
             str_result += "\n  * {}".format(his)
         return str_result
